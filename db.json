@@ -1,0 +1,94 @@
+{
+	"customers": [
+		{
+			"id": "1",
+			"firstName": "Joe",
+			"lastName": "Jackson",
+			"gender": "male",
+			"age": 28,
+			"address": {
+				"streetAddress": "101",
+				"city": "San Diego",
+				"state": "CA"
+			},
+			"phoneNumbers": [
+				{
+					"type": "home",
+					"number": "7349282382"
+				}
+			],
+			"employmentId": "2"
+		},
+		{
+			"id": "2",
+			"firstName": "Doe",
+			"lastName": "Pack",
+			"gender": "female",
+			"age": 48,
+			"address": {
+				"streetAddress": "201",
+				"city": "San Aba",
+				"state": "SA"
+			},
+			"phoneNumbers": [
+				{
+					"type": "home",
+					"number": "7349282000"
+				}
+			],
+			"employmentId": "1"
+		},
+		{
+			"id": "3",
+			"firstName": "Kwame",
+			"lastName": "Ofin",
+			"gender": "female",
+			"age": 19,
+			"address": {
+				"streetAddress": "202",
+				"city": "South Alabama",
+				"state": "SB"
+			},
+			"phoneNumbers": [
+				{
+					"type": "home",
+					"number": "73400002999"
+				}
+			],
+			"employmentId": "2"
+		},
+		{
+			"id": "4",
+			"firstName": "Kolo",
+			"lastName": "Band",
+			"gender": "female",
+			"age": 29,
+			"address": {
+				"streetAddress": "302",
+				"city": "North Alabama",
+				"state": "RE"
+			},
+			"phoneNumbers": [
+				{
+					"type": "office",
+					"number": "73400002349"
+				}
+			],
+			"employmentId": "3"
+		}
+	],
+	"employments": [
+		{
+			"id": "1",
+			"status": "employed"
+		},
+		{
+			"id": "2",
+			"status": "self-employed"
+		},
+		{
+			"id": "3",
+			"status": "unemployed"
+		}
+	]
+}

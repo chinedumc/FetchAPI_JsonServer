@@ -1,0 +1,23 @@
+{
+  "name": "fetchapi_jsonserver",
+  "version": "1.0.0",
+  "description": "Making a REST API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "json-server": "json-server --watch db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chinedumc/FetchAPI_JsonServer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chinedumc/FetchAPI_JsonServer/issues"
+  },
+  "homepage": "https://github.com/chinedumc/FetchAPI_JsonServer#readme",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
